@@ -167,6 +167,9 @@ STORAGES = {
     "default": {
         "BACKEND": "storages.backends.s3boto3.S3Boto3Storage",
     },
+    "OPTIONS": {
+        "file_overwrite": False,
+    },
     "staticfiles": {
         "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
     },
