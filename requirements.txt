@@ -22,7 +22,6 @@ tzdata==2025.3
 urllib3==2.8.0
 virtualenv==21.2.0
 
-Django>=5.1,<5.2
 django-storages
 boto3
 python-dotenv
